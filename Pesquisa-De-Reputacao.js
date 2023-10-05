@@ -1,4 +1,4 @@
-﻿// Pesquisa de reputação.
+// Pesquisa de reputação.
 // Reclame Aqui
 var urlsRA = [
     // Refrigeração
@@ -11,6 +11,8 @@ var urlsRA = [
     "https://iosite.reclameaqui.com.br/raichu-io-site-v1/company/compare/45442", // DuFrio
     "https://iosite.reclameaqui.com.br/raichu-io-site-v1/company/compare/15937", // STR
     "https://iosite.reclameaqui.com.br/raichu-io-site-v1/company/compare/12163", // Web Continental
+    "https://iosite.reclameaqui.com.br/raichu-io-site-v1/company/compare/12017", // Clima rio
+    "https://iosite.reclameaqui.com.br/raichu-io-site-v1/company/compare/8518", // Casa e Video
 
     // Outros e-commerces
     "https://iosite.reclameaqui.com.br/raichu-io-site-v1/company/compare/7936", // Amazon
@@ -65,30 +67,30 @@ var nomesEmpresasEbit = [
 ]
 var urlsEbit = [
     // Refrigeração
-    "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=7562", // CentralAr.com
-    "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=7873", // A.Dias
-    "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=73870", // Frigelar
-    "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=50989", // Frio peças
-    "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=6714", // Leveros
-    "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=3378", // PoloAr
-    "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=54517", // DuFrio
-    "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=15595", // STR
-    "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=7694", // Web Continental
+    // "//reputation-api.ebit.com.br/reputation/getbyCompanyURL?urlName=Central-AR", // CentralAr.com
+    // "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=7873", // A.Dias
+    // "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=73870", // Frigelar
+    // "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=50989", // Frio peças
+    // "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=6714", // Leveros
+    // "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=3378", // PoloAr
+    // "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=54517", // DuFrio
+    // "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=15595", // STR
+    // "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=7694", // Web Continental
 
-    // Outros e-commerces
-    "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=66958", // Amazon
-    "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=568", // Americanas
-    "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=10581", // Carrefour
-    "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=740", // Casas Bahia
-    "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=2043", // Extra.com
-    "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=552", // Magazine Luiza
-    "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=", // Mercado Livre
-    "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=566", // Ponto Frio
-    "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=3556", // Ricardo Eletro
-    "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=637", // Shoptime
-    "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=715", // Submarino
-    "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=742", // Walmart
-    "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=" // Zoom
+    // // Outros e-commerces
+    // "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=66958", // Amazon
+    // "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=568", // Americanas
+    // "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=10581", // Carrefour
+    // "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=740", // Casas Bahia
+    // "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=2043", // Extra.com
+    // "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=552", // Magazine Luiza
+    // "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=", // Mercado Livre
+    // "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=566", // Ponto Frio
+    // "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=3556", // Ricardo Eletro
+    // "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=637", // Shoptime
+    // "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=715", // Submarino
+    // "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=742", // Walmart
+    // "//www.ebit.com.br/reputacao-de-lojas/historico?companyid=" // Zoom
 ]
 
 // Create RA table.
@@ -104,43 +106,73 @@ ebitTable.appendChild(ebitBody)
 //HEADER Ebit
 var ebitRow = document.createElement('tr')
 var ebitCell = document.createElement('th')
+
 ebitCell.innerHTML = "Player"
 ebitRow.appendChild(ebitCell)
+
 ebitCell = document.createElement('th')
 ebitCell.innerHTML = "Classificacao"
 ebitRow.appendChild(ebitCell)
+
 ebitCell = document.createElement('th')
 ebitCell.innerHTML = "Prazo"
 ebitRow.appendChild(ebitCell)
+
 ebitCell = document.createElement('th')
 ebitCell.innerHTML = "Compraria"
 ebitRow.appendChild(ebitCell)
+
 ebitCell = document.createElement('th')
 ebitCell.innerHTML = "Indicaria"
 ebitRow.appendChild(ebitCell)
 
 //HEADER RA
+var raRowMes = document.createElement('tr')
+
+var raCellVoid = document.createElement('th')
+
+raCellVoid.innerHTML = "Player"
+raCellVoid.setAttribute("rowspan", "2")
+raRowMes.appendChild(raCellVoid)
+
+var raCell6Mes = document.createElement('th')
+
+raCell6Mes.innerHTML = "12 meses"
+raCell6Mes.setAttribute("colspan", "7")
+raRowMes.appendChild(raCell6Mes)
+
+var raCell12Mes = document.createElement('th')
+
+raCell12Mes.innerHTML = "6 meses"
+raCell12Mes.setAttribute("colspan", "7")
+raRowMes.appendChild(raCell12Mes)
+
 var raRow = document.createElement('tr')
 
-var raCell = document.createElement('th')
-raCell.innerHTML = "Player"
-raRow.appendChild(raCell)
-
 raCell = document.createElement('th')
 raCell.innerHTML = "Reclamacoes"
 raRow.appendChild(raCell)
+
 raCell = document.createElement('th')
 raCell.innerHTML = "Respostas"
 raRow.appendChild(raCell)
+
 raCell = document.createElement('th')
-raCell.innerHTML = "Nota"
+raCell.innerHTML = "Avaliação do Reclame Aqui"
 raRow.appendChild(raCell)
+
+raCell = document.createElement('th')
+raCell.innerHTML = "Nota do consumidor"
+raRow.appendChild(raCell)
+
 raCell = document.createElement('th')
 raCell.innerHTML = "Indice de Sol."
 raRow.appendChild(raCell)
+
 raCell = document.createElement('th')
 raCell.innerHTML = "Voltaria"
 raRow.appendChild(raCell)
+
 raCell = document.createElement('th')
 raCell.innerHTML = "Classificacao"
 raRow.appendChild(raCell)
@@ -148,23 +180,34 @@ raRow.appendChild(raCell)
 raCell = document.createElement('th')
 raCell.innerHTML = "Reclamacoes"
 raRow.appendChild(raCell)
+
 raCell = document.createElement('th')
 raCell.innerHTML = "Respostas"
 raRow.appendChild(raCell)
+
 raCell = document.createElement('th')
-raCell.innerHTML = "Nota"
+raCell.innerHTML = "Avaliação do Reclame Aqui"
 raRow.appendChild(raCell)
+
+raCell = document.createElement('th')
+raCell.innerHTML = "Nota do consumidor"
+raRow.appendChild(raCell)
+
 raCell = document.createElement('th')
 raCell.innerHTML = "Indice de Sol."
 raRow.appendChild(raCell)
+
 raCell = document.createElement('th')
 raCell.innerHTML = "Voltaria"
 raRow.appendChild(raCell)
+
 raCell = document.createElement('th')
 raCell.innerHTML = "Classificacao"
 raRow.appendChild(raCell)
 
+raBody.appendChild(raRowMes)
 raBody.appendChild(raRow)
+
 ebitBody.appendChild(ebitRow)
 
 var styles = document.createElement('style')
@@ -197,8 +240,8 @@ function PrintEbit(Nome, Classificacao, Prazo, Compraria, Indicaria) {
 }
 
 function PrintRA(nome,
-    r12nRec, r12nResp, r12nota, r12indSol, r12volFazNeg, r12rank,
-    r6nRec, r6nResp, r6nota, r6indSol, r6volFazNeg, r6rank
+    r12nRec, r12nResp,r12avaliacao, r12nota, r12indSol, r12volFazNeg, r12rank,
+    r6nRec, r6nResp,r6avaliacao, r6nota, r6indSol, r6volFazNeg, r6rank
 ) {
     var raRow = document.createElement('tr')
 
@@ -209,18 +252,27 @@ function PrintRA(nome,
     raCell = document.createElement('td')
     raCell.innerHTML = r12nRec
     raRow.appendChild(raCell)
+
     raCell = document.createElement('td')
     raCell.innerHTML = r12nResp
     raRow.appendChild(raCell)
+
+    raCell = document.createElement('td')
+    raCell.innerHTML = r12avaliacao.toFixed(2).replace(".", ",")
+    raRow.appendChild(raCell)
+
     raCell = document.createElement('td')
     raCell.innerHTML = r12nota.toFixed(2).replace(".", ",")
     raRow.appendChild(raCell)
+
     raCell = document.createElement('td')
     raCell.innerHTML = r12indSol.toFixed(2).replace(".", ",") + "%"
     raRow.appendChild(raCell)
+
     raCell = document.createElement('td')
     raCell.innerHTML = r12volFazNeg.toFixed(2).replace(".", ",") + "%"
     raRow.appendChild(raCell)
+
     raCell = document.createElement('td')
     raCell.innerHTML = r12rank.replace("GREAT", "OTIMA").replace("GOOD", "BOM").replace("BAD", "RUIM").replace("NOT_RECOMMENDED", "NAO RECOMENDADO")
     raRow.appendChild(raCell)
@@ -228,25 +280,33 @@ function PrintRA(nome,
     raCell = document.createElement('td')
     raCell.innerHTML = r6nRec
     raRow.appendChild(raCell)
+
     raCell = document.createElement('td')
     raCell.innerHTML = r6nResp
     raRow.appendChild(raCell)
+
+    raCell = document.createElement('td')
+    raCell.innerHTML = r6avaliacao.toFixed(2).replace(".", ",")
+    raRow.appendChild(raCell)
+
     raCell = document.createElement('td')
     raCell.innerHTML = r6nota.toFixed(2).replace(".", ",")
     raRow.appendChild(raCell)
+
     raCell = document.createElement('td')
     raCell.innerHTML = r6indSol.toFixed(2).replace(".", ",") + "%"
     raRow.appendChild(raCell)
+
     raCell = document.createElement('td')
     raCell.innerHTML = r6volFazNeg.toFixed(2).replace(".", ",") + "%"
     raRow.appendChild(raCell)
+
     raCell = document.createElement('td')
     raCell.innerHTML = r6rank.replace("GREAT", "OTIMA").replace("GOOD", "BOM").replace("BAD", "RUIM").replace("NOT_RECOMMENDED", "NAO RECOMENDADO")
     raRow.appendChild(raCell)
 
     raBody.appendChild(raRow)
 }
-
 
 var i = -1
 
@@ -266,17 +326,21 @@ function getResultsEbit(urlToGetJson) {
     var xhttp = new XMLHttpRequest(); //cria o objeto
     xhttp.open("GET", urlToGetJson, true); //Link
     xhttp.timeout = 10000; //10 segundos para timeout
+
+    console.log('teste')
+
     xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) { //Status OK:
             //Lê o JSON
+            console.log("this.responseText")
             var objJson = JSON.parse(JSON.parse(this.responseText))
             if (objJson.result == true) {
                 PrintEbit(
-                    objJson.Data.nome_fantasia,
-                    objJson.Data.medalha,
-                    objJson.Data.estatisticas[0].entrega_pontual,
-                    objJson.Data.estatisticas[0].compraria_novamente,
-                    objJson.Data.estatisticas[0].indicaria_amigo
+                    objJson.Data.CompanyName,
+                    objJson.Data.Medal,
+                    objJson.Data.DeliveryTime,
+                    objJson.Data.ReturnPurchase,
+                    objJson.Data.FriendRecommendation
                 )
                 nextEbitURL()
             } else {
@@ -292,7 +356,6 @@ function getResultsEbit(urlToGetJson) {
     }
     xhttp.send()
 }
-
 
 function nextRaURL() {
     i++
@@ -332,6 +395,8 @@ function getResultsRA(urlToGetJson) {
                     r12 = true
                     var r12nRec = objJson.indexes[j].totalComplains || 0
                     var r12nResp = objJson.indexes[j].totalAnswered || 0
+                    //var r12avaliacao = objJson.indexes[j].consumerScore || 0
+                    var r12avaliacao = objJson.indexes[j].finalScore || 0
                     var r12nota = objJson.indexes[j].consumerScore || 0
                     var r12indSol = objJson.indexes[j].solvedPercentual || 0
                     var r12volFazNeg = objJson.indexes[j].dealAgainPercentual || 0
@@ -341,6 +406,8 @@ function getResultsRA(urlToGetJson) {
                     r6 = true
                     var r6nRec = objJson.indexes[j].totalComplains || 0
                     var r6nResp = objJson.indexes[j].totalAnswered || 0
+                    //var r6avaliacao = objJson.indexes[j].consumerScore || 0
+                    var r6avaliacao = objJson.indexes[j].finalScore || 0
                     var r6nota = objJson.indexes[j].consumerScore || 0
                     var r6indSol = objJson.indexes[j].solvedPercentual || 0
                     var r6volFazNeg = objJson.indexes[j].dealAgainPercentual || 0
@@ -351,6 +418,7 @@ function getResultsRA(urlToGetJson) {
             if (r12 === false) {
                 r12nRec = 0
                 r12nResp = 0
+                r12avaliacao = 0
                 r12nota = 0
                 r12indSol = 0
                 r12volFazNeg = 0
@@ -360,6 +428,7 @@ function getResultsRA(urlToGetJson) {
             if (r6 === false) {
                 r6nRec = 0
                 r6nResp = 0
+                r6avaliacao = 0
                 r6nota = 0
                 r6indSol = 0
                 r6volFazNeg = 0
@@ -367,8 +436,8 @@ function getResultsRA(urlToGetJson) {
             }
 
             PrintRA(nome,
-                r12nRec, r12nResp, r12nota, r12indSol, r12volFazNeg, r12rank,
-                r6nRec, r6nResp, r6nota, r6indSol, r6volFazNeg, r6rank
+                r12nRec, r12nResp, r12avaliacao, r12nota, r12indSol, r12volFazNeg, r12rank,
+                r6nRec, r6nResp, r6avaliacao, r6nota, r6indSol, r6volFazNeg, r6rank
             )
             nextRaURL()
         }
@@ -380,6 +449,10 @@ function getResultsRA(urlToGetJson) {
         forceNextRA(); //PRÓXIMO!
     }
     xhttp.send()
+}
+
+const fetchResponse = () => {
+    fetch("reputation-api.ebit.com.br/reputation/getbyCompanyURL?urlName=Central-AR")
 }
 
 nextRaURL()
